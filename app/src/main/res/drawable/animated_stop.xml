@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/stop" >
+    <target
+        android:name="stop"
+        android:animation="@anim/stop_to_pause_morph" />
+
+    <target
+        android:name="stop_group"
+        android:animation="@anim/stop_to_pause_rotation"/>
+</animated-vector>

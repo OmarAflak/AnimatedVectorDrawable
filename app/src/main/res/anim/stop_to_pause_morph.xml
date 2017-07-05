@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="200"
+        android:propertyName="pathData"
+        android:valueFrom= "M25,25 75,25 75,125 25,125 z M75,25 125,25 125,125 75,125 z"
+        android:valueTo=   "M25,25 55,25 55,125 25,125 z M95,25 125,25 125,125 95,125 z"
+        android:valueType="pathType"
+        android:interpolator="@android:anim/accelerate_interpolator"/>
+</set>
