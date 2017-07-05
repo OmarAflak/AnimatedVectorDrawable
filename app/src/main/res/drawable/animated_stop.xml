@@ -3,9 +3,9 @@
     android:drawable="@drawable/stop" >
     <target
         android:name="stop"
-        android:animation="@anim/stop_to_pause_morph" />
+        android:animation="@animator/stop_to_pause_morph" />
 
     <target
         android:name="stop_group"
-        android:animation="@anim/stop_to_pause_rotation"/>
+        android:animation="@animator/stop_to_pause_rotation"/>
 </animated-vector>
