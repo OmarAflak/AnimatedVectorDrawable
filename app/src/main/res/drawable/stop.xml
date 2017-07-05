@@ -10,7 +10,7 @@
         android:pivotY="75">
         <path
             android:name="stop"
-            android:fillColor="#ffffff"
+            android:fillColor="@color/stop"
             android:pathData="M25,25 75,25 75,125 25,125 z M75,25 125,25 125,125 75,125 z" />
     </group>
 

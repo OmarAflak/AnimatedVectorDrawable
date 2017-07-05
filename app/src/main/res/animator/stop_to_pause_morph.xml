@@ -7,4 +7,11 @@
         android:valueTo=   "M25,25 55,25 55,125 25,125 z M95,25 125,25 125,125 95,125 z"
         android:valueType="pathType"
         android:interpolator="@android:anim/accelerate_interpolator"/>
+
+    <objectAnimator
+        android:duration="500"
+        android:propertyName="fillColor"
+        android:valueFrom="@color/stop"
+        android:valueTo="@color/pause"
+        android:valueType="colorType"/>
 </set>
